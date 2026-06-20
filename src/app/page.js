@@ -51,6 +51,20 @@ export default function Home() {
           America's largest online hockey league!
         </p>
       </section>
+
+      <footer className="mt-24 border-t border-[#000B36]/20 py-8 text-center">
+        <p className="text-xl font-black text-[#000B36]">
+          AMERICAN VIRTUAL HOCKEY LEAGUE
+        </p>
+
+        <p className="mt-2 text-[#A90117] font-semibold">
+          Established 2022
+        </p>
+
+        <p className="mt-4 text-sm text-gray-500">
+          AVHL.org
+        </p>
+      </footer>
     </main>
   );
 }
