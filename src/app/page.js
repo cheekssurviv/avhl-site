@@ -58,7 +58,7 @@ export default function Home() {
         </p>
 
         <p className="mt-2 text-[#A90117] font-semibold">
-          Established 2022
+          Formerly USCTHL | Established 2022
         </p>
 
         <p className="mt-4 text-sm text-gray-500">
