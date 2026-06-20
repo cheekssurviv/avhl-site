@@ -48,7 +48,7 @@ export default function Home() {
         </h2>
 
         <p className="mt-6 text-2xl md:text-3xl font-bold text-[#A90117]">
-          America's largest online hockey league
+          America's largest online hockey league!
         </p>
       </section>
     </main>
