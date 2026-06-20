@@ -11,21 +11,22 @@ export default function Home() {
             width={55}
             height={55}
           />
-
           <h1 className="text-3xl md:text-4xl font-black">AVHL</h1>
         </div>
 
+        {/* Desktop Navigation */}
         <div className="hidden md:flex gap-8 font-semibold">
-          <a href="#">Home</a>
-          <a href="#">Standings</a>
-          <a href="#">Teams</a>
-          <a href="#">Statistics</a>
-          <a href="#">History</a>
+          <a href="/">Home</a>
+          <a href="/standings">Standings</a>
+          <a href="/teams">Teams</a>
+          <a href="/statistics">Statistics</a>
+          <a href="/history">History</a>
         </div>
 
+        {/* Mobile Navigation */}
         <div className="flex md:hidden gap-5 font-semibold text-lg">
-          <a href="#">Standings</a>
-          <a href="#">Teams</a>
+          <a href="/standings">Standings</a>
+          <a href="/teams">Teams</a>
         </div>
       </nav>
 
@@ -35,15 +36,19 @@ export default function Home() {
           alt="AVHL Logo"
           width={320}
           height={320}
-          className="mt-2 w-[280px] md:w-[320px] h-auto"
+          className="mb-8"
         />
 
-        <h2 className="text-4xl md:text-4xl font-bold mt-6 max-w-4xl">
-          AMERICAN VIRTUAL HOCKEY LEAGUE
+        <h2 className="text-5xl md:text-7xl font-black max-w-5xl">
+          AMERICAN
+          <br />
+          VIRTUAL HOCKEY
+          <br />
+          LEAGUE
         </h2>
 
-        <p className="text-xl font-semibold text-[#A90117] mt-6">
-          The next evolution of virtual hockey.
+        <p className="mt-6 text-2xl md:text-3xl font-bold text-[#A90117]">
+          America's largest online hockey league
         </p>
       </section>
     </main>
