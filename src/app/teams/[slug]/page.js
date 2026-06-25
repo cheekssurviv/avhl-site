@@ -2,8 +2,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { teams } from "../../../../data/teams";
 
-export default function TeamPage({ params }) {
-  const team = teams.find((team) => team.slug === params.slug);
+export function generateStaticParams() {
+  return teams.map((team) => ({
+    slug: team.slug,
+  }));
+}
+
+export default async function TeamPage({ params }) {
+  const { slug } = await params;
+
+  const team = teams.find((team) => team.slug === slug);
 
   if (!team) {
     notFound();
@@ -16,7 +24,7 @@ export default function TeamPage({ params }) {
           ← Back to Teams
         </Link>
 
-        <div className="mt-8 rounded-3xl overflow-hidden border border-[#000B36]/15 shadow-sm">
+        <div className="mt-8 rounded-3xl overflow-hidden border border-[#000B36]/15 shadow-sm bg-white">
           <div
             className="h-32"
             style={{ backgroundColor: team.colors.primary }}
@@ -31,9 +39,7 @@ export default function TeamPage({ params }) {
               {team.nickname}
             </h1>
 
-            <p className="text-xl text-[#000B36]/70 mt-4">
-              {team.record}
-            </p>
+            <p className="text-xl text-[#000B36]/70 mt-4">{team.record}</p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
               <div className="rounded-2xl bg-[#000B36]/5 p-5">
