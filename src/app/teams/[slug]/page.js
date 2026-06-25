@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { teams } from "../../../data/teams";
+import { teams } from "../../../../data/teams";
 
 export default function TeamPage({ params }) {
   const team = teams.find((team) => team.slug === params.slug);
