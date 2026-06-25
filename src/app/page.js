@@ -34,10 +34,10 @@ export default function Home() {
               </a>
 
               <a
-                href="/schedule"
+                href="/info"
                 className="rounded-full border border-white/30 px-7 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:border-cyan-300 hover:text-cyan-300"
               >
-                View Schedule
+                About Us
               </a>
             </div>
           </div>
@@ -59,6 +59,13 @@ export default function Home() {
       <section className="border-y border-white/10 bg-white/[0.03] px-6 py-10 md:px-16">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 text-center md:grid-cols-4">
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+            <p className="text-4xl font-black text-cyan-300">7000+</p>
+            <p className="mt-2 text-sm font-bold uppercase tracking-wide text-white/70">
+              Games Simulated
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <p className="text-4xl font-black text-cyan-300">80</p>
             <p className="mt-2 text-sm font-bold uppercase tracking-wide text-white/70">
               Teams
@@ -66,16 +73,9 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <p className="text-4xl font-black text-cyan-300">2</p>
+            <p className="text-4xl font-black text-cyan-300">3</p>
             <p className="mt-2 text-sm font-bold uppercase tracking-wide text-white/70">
-              Leagues
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <p className="text-4xl font-black text-cyan-300">3 Up / 3 Down</p>
-            <p className="mt-2 text-sm font-bold uppercase tracking-wide text-white/70">
-              Promotion / Relegation
+              Promotions
             </p>
           </div>
 
