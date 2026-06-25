@@ -10,14 +10,13 @@ export default function InfoPage() {
           </p>
 
           <h1 className="text-5xl md:text-7xl font-black tracking-tight max-w-4xl">
-            Built to grow the game in a new way.
+            Growing hockey in the USA.
           </h1>
 
           <p className="mt-6 text-lg md:text-xl text-[#000B36]/70 max-w-3xl leading-relaxed">
-            The American Virtual Hockey League is a custom hockey universe
-            featuring 80 teams, full-season simulations, promotion and
-            relegation, playoff drama, team identities, and years of league
-            history.
+            The American Virtual Hockey League is a completely custom hockey universe
+            featuring 80 teams across all 50 states. We run full-season simulations across the Major and Minor Leagues,
+            and record statistics, document playoff drama, create team identities, and we have compiled years of hockey history.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -44,14 +43,14 @@ export default function InfoPage() {
             <p className="text-4xl font-black">80</p>
             <h2 className="text-xl font-black mt-3">Teams</h2>
             <p className="text-white/70 mt-3 leading-relaxed">
-              A full league system built around unique markets, brands,
+              A full league system built in EA NHL 26, featuring unique markets, brands,
               rivalries, and team identities.
             </p>
           </div>
 
           <div className="rounded-3xl bg-white/10 p-7 border border-white/10">
-            <p className="text-4xl font-black">3 Up</p>
-            <h2 className="text-xl font-black mt-3">3 Down</h2>
+            <p className="text-4xl font-black">Promotion</p>
+            <h2 className="text-xl font-black mt-3">Relegation</h2>
             <p className="text-white/70 mt-3 leading-relaxed">
               Promotion and relegation keep every season meaningful from the
               top of the standings to the bottom.
@@ -62,8 +61,9 @@ export default function InfoPage() {
             <p className="text-4xl font-black">2022</p>
             <h2 className="text-xl font-black mt-3">Established</h2>
             <p className="text-white/70 mt-3 leading-relaxed">
-              What started as a custom league project has grown into a complete
-              hockey world with its own history.
+              This league was founded back in June of 2022 by a high school freshman and his younger brohter.
+              What started as a fun summer project bloomed into a custom universe, putting a new digital and futuristic spin
+              on the hockey industry.
             </p>
           </div>
         </div>
@@ -77,7 +77,8 @@ export default function InfoPage() {
             </p>
 
             <h2 className="text-4xl md:text-5xl font-black tracking-tight">
-              Making hockey feel bigger, deeper, and more connected.
+              Growing the world's greatest sport across the United States by fostering an online community of
+              people passionate about hockey.
             </h2>
           </div>
 
@@ -85,8 +86,8 @@ export default function InfoPage() {
             <p>
               The AVHL exists to bring the structure, emotion, and storytelling
               of real sports into a virtual hockey league. Every team has a
-              place. Every season adds history. Every promotion, relegation,
-              rivalry, upset, and championship becomes part of the league&apos;s
+              place. Every season adds history. Every game,
+              series, and championship becomes part of the league&apos;s
               identity.
             </p>
 
@@ -112,7 +113,7 @@ export default function InfoPage() {
               <p className="mt-3 text-[#000B36]/70 leading-relaxed">
                 The AVHL is not just one static league. Teams can rise, fall,
                 rebuild, and fight their way back through promotion and
-                relegation.
+                relegation. Fairness is strictly enforced, and parity is superior to professional sports leagues.
               </p>
             </div>
 
